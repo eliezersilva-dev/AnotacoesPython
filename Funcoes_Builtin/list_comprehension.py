@@ -45,3 +45,12 @@ print()
 # Exemplo 4
 inicia_com_c = [i for i in palavras if i.startswith('c')]
 print(inicia_com_c)
+
+print()
+
+# Exemplo 5
+indices_palavras = [i for i, j in enumerate(palavras)]
+print(list(indices_palavras))
+
+
+
